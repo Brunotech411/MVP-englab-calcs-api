@@ -28,6 +28,9 @@ MVP-englab-calcs-api/
 │   │   └── health.py
 │   └── __init__.py
 ├── requirements.txt
+├── .gitattributes
+├── .gitignore
+├── .dockerignore
 ├── Dockerfile
 └── README.md
 ```
