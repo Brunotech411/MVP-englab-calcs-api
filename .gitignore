@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Uvicorn / FastAPI temp
+*.pid
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Environment variables
+.env
+
+# Coverage / testing
+htmlcov/
+.coverage
+.tox/
+pytest_cache/
