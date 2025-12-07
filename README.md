@@ -151,7 +151,7 @@ Acesse:
 
 ---
 
-## 🧩 Uso em conjunto com Orchestrator (via docker-compose)
+## 🧩 Uso em conjunto com Orchestrator via docker-compose (recomendado)
 
 Quando o projeto é iniciado a partir do repositório raiz com:
 
