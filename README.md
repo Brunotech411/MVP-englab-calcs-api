@@ -106,7 +106,7 @@ No Windows (PowerShell):
 
 ```bash
 python -m venv venv
-.env\Scriptsctivate
+.venv\Scriptsactivate
 ```
 
 > Em sistemas Unix-like (opcional para referência):  
