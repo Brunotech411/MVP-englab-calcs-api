@@ -97,7 +97,7 @@ MVP-englab-calcs-api/
 
 ## 🚀 Como rodar localmente (sem Docker)
 
-> Recomendado para quem deseja inspecionar o código e testar a API diretamente no ambiente Python.  
+> Recomendado para inspecionar o código e testar a API diretamente no ambiente Python.  
 > Testado com **Python 3.11**.
 
 ### 1️⃣ Criar e ativar ambiente virtual
