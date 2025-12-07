@@ -106,6 +106,7 @@ No Windows (PowerShell):
 
 ```bash
 python -m venv venv
+.venv\Scripts\activate
 ```
 
 ### 2️⃣ Instalar dependências
@@ -114,7 +115,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Subir o servidor FastAPI (Uvicorn)
+### 3️⃣ Rodar servidor FastAPI
 
 ```bash
 uvicorn app.main:app --reload --port 8000
@@ -148,23 +149,6 @@ docker run --rm -p 8000:8000 englab-calcs-api
 Acesse:
 
 👉 **http://127.0.0.1:8000/docs**
-
----
-
-## 🧩 Uso em conjunto com Orchestrator via docker-compose (recomendado)
-
-Quando o projeto é iniciado a partir do repositório raiz com:
-
-```bash
-docker compose up --build
-```
-
-- A **EngLab Calcs API** sobe automaticamente como serviço `englab-calcs-api` na porta `8000`.  
-- A **EngLab Orchestrator API** consome esta API internamente, usando o nome do serviço Docker e a variável de ambiente:
-
-```text
-CALCS_API_URL=http://englab-calcs-api:8000
-```
 
 ---
 
