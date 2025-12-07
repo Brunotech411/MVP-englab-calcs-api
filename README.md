@@ -129,9 +129,6 @@ Depois de iniciado, os endpoints podem ser testados via Swagger UI:
 
 ## 🐳 Rodando com Docker (standalone)
 
-> Esta opção é útil para rodar **apenas** a Calcs API isoladamente.  
-> Em contexto de projeto completo, a execução recomendada é via `docker compose` no repositório raiz.
-
 ### 1️⃣ Build da imagem
 
 No diretório `MVP-englab-calcs-api`:
@@ -197,6 +194,6 @@ Este microserviço ilustra:
 
 - **Separação de responsabilidades** em uma arquitetura de microsserviços.
 - Encapsulamento de **regras de negócio de engenharia** em um serviço simples, reusável e independente.
-- Como um serviço especializado pode ser **consumido por um orquestrador**, que agrega dados de domínio (clima, banco de dados, histórico de conversões).
+- Como um serviço especializado pode ser **consumido por um orquestrador**, que agrega dados de domínio (clima, banco de dados, histórico de conversões).'
 
 Ele pode ser reutilizado em outros projetos que demandem cálculos de corrente trifásica, escoamento em tubulações ou regime de fluxo em sistemas industriais.
