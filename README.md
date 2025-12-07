@@ -1,5 +1,6 @@
 # EngLab Calcs API
 
+Esta API funciona como componente secundário (API de cálculos) consumido pela EngLab Orchestrator API
 API de cálculos utilizados em automação/engenharia, projetada como um **microserviço independente**, simples e de alta coesão.  
 Este serviço fornece cálculos de grandezas elétricas e de fluxo, servindo como backend especializado e consumido pela **EngLab Orchestrator API**.
 
@@ -185,6 +186,12 @@ Exemplo:
   "dynamic_viscosity_pa_s": 0.001
 }
 ```
+
+### 🩺 Health check
+`GET /health`
+
+Retorna o status básico da API, permitindo que o Orchestrator ou ferramentas de monitoramento verifiquem se o serviço de cálculos está disponível.
+
 
 ---
 
