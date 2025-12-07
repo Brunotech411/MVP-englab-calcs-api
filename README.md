@@ -106,11 +106,7 @@ No Windows (PowerShell):
 
 ```bash
 python -m venv venv
-.venv\Scriptsactivate
 ```
-
-> Em sistemas Unix-like (opcional para referência):  
-> `python3 -m venv venv && source venv/bin/activate`
 
 ### 2️⃣ Instalar dependências
 
